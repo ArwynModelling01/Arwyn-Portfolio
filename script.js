@@ -1,3 +1,5 @@
+// MOBILE MENU
+
 const menuButton = document.querySelector(".menu-button");
 const navLinks = document.querySelector(".nav-links");
 
@@ -6,12 +8,13 @@ menuButton.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
 
-document.querySelectorAll(".nav-links a").forEach(Link => {
+document.querySelectorAll(".nav-links a").forEach((link) => {
     link.addEventListener("click", () => {
         menuButton.classList.remove("active");
         navLinks.classList.remove("active");
     });
 });
+
 
 // PORTFOLIO LIGHTBOX
 
@@ -40,8 +43,15 @@ function showImage(index) {
 
     currentImage = index;
 
-    lightboxPlaceholder.textContent =
-        portfolioItems[currentImage].textContent.trim();
+    const image = portfolioItems[currentImage].querySelector("img");
+
+    lightboxPlaceholder.innerHTML = `
+        <img
+            src="${image.src}"
+            alt="${image.alt}"
+            class="lightbox-image"
+        >
+    `;
 
     lightboxCounter.textContent =
         `${currentImage + 1} / ${portfolioItems.length}`;
@@ -52,9 +62,7 @@ portfolioItems.forEach((item, index) => {
 
     item.addEventListener("click", () => {
 
-        currentImage = index;
-
-        showImage(currentImage);
+        showImage(index);
 
         lightbox.classList.add("active");
 
@@ -76,16 +84,12 @@ closeButton.addEventListener("click", closeLightbox);
 
 
 previousButton.addEventListener("click", () => {
-
     showImage(currentImage - 1);
-
 });
 
 
 nextButton.addEventListener("click", () => {
-
     showImage(currentImage + 1);
-
 });
 
 
@@ -118,25 +122,37 @@ document.addEventListener("keydown", (event) => {
 
 });
 
+
 // SCROLL REVEAL
 
 const revealElements = document.querySelectorAll(".reveal");
 
-const revealObserver = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
+if ("IntersectionObserver" in window) {
 
-            if (entry.isIntersecting) {
-                entry.target.classList.add("visible");
-            }
+    document.body.classList.add("animations-enabled");
 
-        });
-    },
-    {
-        threshold: 0.15
-    }
-);
+    const revealObserver = new IntersectionObserver(
+        (entries) => {
 
-revealElements.forEach((element) => {
-    revealObserver.observe(element);
-});
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    revealObserver.unobserve(entry.target);
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.1
+        }
+    );
+
+    revealElements.forEach((element) => {
+        revealObserver.observe(element);
+    });
+
+}
