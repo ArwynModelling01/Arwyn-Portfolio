@@ -156,3 +156,131 @@ if ("IntersectionObserver" in window) {
     });
 
 }
+
+// SHOOT COLLECTIONS
+
+const shootCollections = {
+
+    "after-dark-red": {
+        title: "After Dark: Red",
+
+        images: [
+            "images/shoots/after-dark-red/01-arwyn-red-portrait.webp",
+            "images/shoots/after-dark-red/02-arwyn-red-standing.webp"
+        ]
+    },
+
+    "after-dark-gold": {
+        title: "After Dark: Gold",
+
+        images: [
+            "images/shoots/after-dark-gold/01-arwyn-gold-pole-pose.webp",
+            "images/shoots/after-dark-gold/02-arwyn-gold-standing.webp"
+        ]
+    },
+
+    "lakeside-parasol": {
+        title: "Lakeside Parasol",
+
+        images: [
+            "images/shoots/lakeside-parasol/01-arwyn-parasol-portrait.webp",
+            "images/shoots/lakeside-parasol/02-arwyn-standing-by-water.webp",
+            "images/shoots/lakeside-parasol/03-arwyn-reclining-by-reeds.webp",
+            "images/shoots/lakeside-parasol/04-arwyn-seated-smile.webp"
+        ]
+    },
+
+    "woodland-editorial": {
+        title: "Woodland",
+
+        images: [
+            "images/shoots/woodland-editorial/01-arwyn-foliage-portrait.webp",
+            "images/shoots/woodland-editorial/02-arwyn-framed-by-trees.webp",
+            "images/shoots/woodland-editorial/03-arwyn-standing-portrait.webp",
+            "images/shoots/woodland-editorial/04-arwyn-golden-backlight.webp",
+            "images/shoots/woodland-editorial/05-arwyn-forest-floor.webp",
+            "images/shoots/woodland-editorial/06-arwyn-over-shoulder.webp",
+            "images/shoots/woodland-editorial/07-arwyn-soft-portrait.webp"
+        ]
+    },
+
+    "woodland-ghosts": {
+        title: "Woodland Ghosts",
+
+        images: [
+            "images/shoots/woodland-ghosts/01-arwyn-ghost-in-motion.webp",
+            "images/shoots/woodland-ghosts/02-arwyn-ghost-by-water.webp",
+            "images/shoots/woodland-ghosts/03-arwyn-ghosts-landscape.webp"
+        ]
+    }
+
+};
+
+
+const shootViewer = document.querySelector("#shootViewer");
+const shootViewerTitle = document.querySelector("#shootViewerTitle");
+const shootViewerGrid = document.querySelector("#shootViewerGrid");
+const shootViewerClose = document.querySelector(".shoot-viewer-close");
+
+
+document.querySelectorAll(".shoot-card").forEach((card) => {
+
+    card.addEventListener("click", () => {
+
+        const shootName = card.dataset.shoot;
+        const shoot = shootCollections[shootName];
+
+        if (!shoot) {
+            return;
+        }
+
+        shootViewerTitle.textContent = shoot.title;
+
+        shootViewerGrid.innerHTML = "";
+
+        shoot.images.forEach((imagePath) => {
+
+            const image = document.createElement("img");
+
+            image.src = imagePath;
+            image.alt = `${shoot.title} - Arwyn`;
+
+            image.loading = "lazy";
+
+            shootViewerGrid.appendChild(image);
+
+        });
+
+        shootViewer.classList.add("active");
+
+        document.body.style.overflow = "hidden";
+
+        shootViewer.scrollTop = 0;
+
+    });
+
+});
+
+
+function closeShootViewer() {
+
+    shootViewer.classList.remove("active");
+
+    document.body.style.overflow = "";
+
+}
+
+
+shootViewerClose.addEventListener("click", closeShootViewer);
+
+
+document.addEventListener("keydown", (event) => {
+
+    if (
+        event.key === "Escape" &&
+        shootViewer.classList.contains("active")
+    ) {
+        closeShootViewer();
+    }
+
+});
