@@ -1,0 +1,50 @@
+ARWYN — CURATED WEBSITE
+
+WHAT IS IN THIS VERSION
+36 selected new photographs, organised into 7 new collections.
+All 18 original shoot photographs remain in the original 5 collections.
+Total: 12 collections / 54 photographs.
+Selected Work now has 9 images: 5 new and 4 existing.
+The hero now uses the approved seated black-gown staircase photo, with a
+top-aligned crop for desktop and phone screens. Social sharing uses this photo too.
+
+REVIEW FIRST
+1. Extract the ZIP to a folder.
+2. Open index.html to browse the updated website.
+3. Open review/selection.html to see the 36 chosen new photos with reasons.
+4. Read review/REVIEW.md for the comparison with the previous portfolio,
+   collection decisions, reserve decisions and image-quality approach.
+5. review/photo-decisions.csv records all 164 source filenames, including
+   36 selections, 123 reserve photographs and 5 exact duplicates.
+   review/optimisation.csv maps each selected JPEG to its final WebP.
+
+The unselected originals have not been deleted or moved. Keep the original
+photo ZIP and the full Work photo package as your source archive.
+
+DEPLOY TO YOUR EXISTING WEBSITE HOST
+1. Back up the current live website with your host's file manager or upload tool.
+2. Find the live folder that already contains your current index.html.
+3. Upload this package's index.html, style.css, script.js and complete images/
+   folder into that same live folder. Replace matching files.
+4. Upload gallery-data.json if you also want the collection inventory online;
+   the website itself uses the collection definitions in script.js.
+5. Upload the CONTENTS at the website root. Do not add another enclosing
+   Arwyn-Curated-Website directory above index.html.
+6. The review/ folder, this document and TEST-RESULTS.txt are for your records;
+   they do not need to be uploaded.
+7. Refresh the live site and clear the host/browser cache if old files appear.
+8. Check Selected Work, all 12 collections, next/previous image buttons,
+   Escape, return to collection, the phone menu and Instagram.
+
+Replacing files does not require deleting any other host files. The older
+all-photo folders may remain on your host but this site will not reference them.
+
+EXISTING DETAILS
+The existing domain metadata is still https://ari-models.com/.
+If moving permanently to another domain, change canonical, og:url and the
+absolute og:image URL in index.html.
+The existing Email link has no real address. Replace href="#" on the
+email-link element with href="mailto:YOUR_ACTUAL_ADDRESS" to enable it.
+
+No account access or publishing is needed to preview this package.
+No files have been published or sent to GitHub.

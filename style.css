@@ -75,10 +75,10 @@ nav a {
             rgba(0, 0, 0, 0.15),
             rgba(0, 0, 0, 0.60)
         ),
-        url("images/hero/arwyn-hero.webp");
+        url("images/shoots/black-gown-editorial/03-arwyn-staircase-seated.webp");
 
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
 
     position: relative;
@@ -813,4 +813,11 @@ footer {
         right: 20px;
     }
 
+}
+/* Keep the existing viewer styling above the collection overlay. */
+.lightbox { z-index: 3000; }
+.shoot-viewer-grid img { cursor: zoom-in; }
+[role="button"]:focus-visible { outline: 2px solid #b99a6a; outline-offset: 5px; }
+@media (max-width: 360px) {
+    .contact h2 { font-size: 60px; }
 }

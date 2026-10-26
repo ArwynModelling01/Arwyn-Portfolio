@@ -1,0 +1,116 @@
+{
+  "after-dark-red": {
+    "title": "After Dark: Red",
+    "images": [
+      "images/shoots/after-dark-red/01-arwyn-red-portrait.webp",
+      "images/shoots/after-dark-red/02-arwyn-red-standing.webp"
+    ]
+  },
+  "after-dark-gold": {
+    "title": "After Dark: Gold",
+    "images": [
+      "images/shoots/after-dark-gold/01-arwyn-gold-pole-pose.webp",
+      "images/shoots/after-dark-gold/02-arwyn-gold-standing.webp"
+    ]
+  },
+  "lakeside-parasol": {
+    "title": "Lakeside Parasol",
+    "images": [
+      "images/shoots/lakeside-parasol/01-arwyn-parasol-portrait.webp",
+      "images/shoots/lakeside-parasol/02-arwyn-standing-by-water.webp",
+      "images/shoots/lakeside-parasol/03-arwyn-reclining-by-reeds.webp",
+      "images/shoots/lakeside-parasol/04-arwyn-seated-smile.webp"
+    ]
+  },
+  "woodland-editorial": {
+    "title": "Woodland",
+    "images": [
+      "images/shoots/woodland-editorial/01-arwyn-foliage-portrait.webp",
+      "images/shoots/woodland-editorial/02-arwyn-framed-by-trees.webp",
+      "images/shoots/woodland-editorial/03-arwyn-standing-portrait.webp",
+      "images/shoots/woodland-editorial/04-arwyn-golden-backlight.webp",
+      "images/shoots/woodland-editorial/05-arwyn-forest-floor.webp",
+      "images/shoots/woodland-editorial/06-arwyn-over-shoulder.webp",
+      "images/shoots/woodland-editorial/07-arwyn-soft-portrait.webp"
+    ]
+  },
+  "woodland-ghosts": {
+    "title": "Woodland Ghosts",
+    "images": [
+      "images/shoots/woodland-ghosts/01-arwyn-ghost-in-motion.webp",
+      "images/shoots/woodland-ghosts/02-arwyn-ghost-by-water.webp",
+      "images/shoots/woodland-ghosts/03-arwyn-ghosts-landscape.webp"
+    ]
+  },
+  "black-gown-editorial": {
+    "title": "Black Gown Editorial",
+    "images": [
+      "images/shoots/black-gown-editorial/01-arwyn-staircase-portrait.webp",
+      "images/shoots/black-gown-editorial/02-arwyn-staircase-front.webp",
+      "images/shoots/black-gown-editorial/03-arwyn-staircase-seated.webp",
+      "images/shoots/black-gown-editorial/04-arwyn-staircase-over-shoulder.webp",
+      "images/shoots/black-gown-editorial/05-arwyn-staircase-back.webp",
+      "images/shoots/black-gown-editorial/06-arwyn-candle-table-portrait.webp",
+      "images/shoots/black-gown-editorial/07-arwyn-candle-table-wide.webp"
+    ]
+  },
+  "pastel-knit": {
+    "title": "Pastel Knit",
+    "images": [
+      "images/shoots/pastel-knit/01-arwyn-hanging-chair-knit.webp",
+      "images/shoots/pastel-knit/02-arwyn-hanging-chair-monochrome.webp",
+      "images/shoots/pastel-knit/03-arwyn-hanging-chair-seated.webp",
+      "images/shoots/pastel-knit/04-arwyn-sofa-portrait.webp",
+      "images/shoots/pastel-knit/05-arwyn-sofa-wide.webp",
+      "images/shoots/pastel-knit/06-arwyn-sofa-overhead.webp"
+    ]
+  },
+  "floral-dress": {
+    "title": "Floral Dress",
+    "images": [
+      "images/shoots/floral-dress/01-arwyn-garden-dress-movement.webp",
+      "images/shoots/floral-dress/02-arwyn-garden-portrait.webp",
+      "images/shoots/floral-dress/03-arwyn-interior-seated.webp",
+      "images/shoots/floral-dress/04-arwyn-table-window-light.webp",
+      "images/shoots/floral-dress/05-arwyn-piano-portrait.webp"
+    ]
+  },
+  "pink-boots": {
+    "title": "Pink Boots",
+    "images": [
+      "images/shoots/pink-boots/01-arwyn-truck-seated.webp",
+      "images/shoots/pink-boots/02-arwyn-truck-standing.webp",
+      "images/shoots/pink-boots/03-arwyn-truck-over-shoulder.webp",
+      "images/shoots/pink-boots/04-arwyn-motorcycle-wide.webp",
+      "images/shoots/pink-boots/05-arwyn-motorcycle-handlebars.webp",
+      "images/shoots/pink-boots/06-arwyn-motorcycle-seated.webp"
+    ]
+  },
+  "studio-portraits": {
+    "title": "Studio Portraits",
+    "images": [
+      "images/shoots/studio-portraits/01-arwyn-monochrome-portrait.webp",
+      "images/shoots/studio-portraits/02-arwyn-standing-front.webp",
+      "images/shoots/studio-portraits/03-arwyn-parasol-seated.webp",
+      "images/shoots/studio-portraits/04-arwyn-chair-seated.webp",
+      "images/shoots/studio-portraits/05-arwyn-chair-low-angle.webp"
+    ]
+  },
+  "bedroom-portraits": {
+    "title": "Bedroom Portraits",
+    "images": [
+      "images/shoots/bedroom-portraits/01-arwyn-reclining-portrait.webp",
+      "images/shoots/bedroom-portraits/02-arwyn-seated-close.webp",
+      "images/shoots/bedroom-portraits/03-arwyn-seated-pumpkin.webp",
+      "images/shoots/bedroom-portraits/04-arwyn-bed-end-seated.webp"
+    ]
+  },
+  "autumn-leather": {
+    "title": "Autumn Leather",
+    "images": [
+      "images/shoots/autumn-leather/01-arwyn-motorcycle-pumpkin.webp",
+      "images/shoots/autumn-leather/02-arwyn-truck-pumpkin.webp",
+      "images/shoots/autumn-leather/03-arwyn-motorcycle-wide.webp"
+    ]
+  }
+}
