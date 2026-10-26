@@ -5,8 +5,10 @@ WHAT IS IN THIS VERSION
 All 18 original shoot photographs remain in the original 5 collections.
 Total: 12 collections / 54 photographs.
 Selected Work now has 9 images: 5 new and 4 existing.
-The hero now uses the approved seated black-gown staircase photo, with a
-top-aligned crop for desktop and phone screens. Social sharing uses this photo too.
+The desktop hero uses an additional wide black-gown staircase photograph,
+filling the screen naturally without enlarging a portrait across its width.
+Phones retain the seated portrait. Social sharing uses the wide photo.
+Model Info height is corrected to 5'1".
 
 REVIEW FIRST
 1. Extract the ZIP to a folder.
@@ -15,7 +17,7 @@ REVIEW FIRST
 4. Read review/REVIEW.md for the comparison with the previous portfolio,
    collection decisions, reserve decisions and image-quality approach.
 5. review/photo-decisions.csv records all 164 source filenames, including
-   36 selections, 123 reserve photographs and 5 exact duplicates.
+   36 gallery selections, 1 desktop hero, 122 reserve photographs and 5 exact duplicates.
    review/optimisation.csv maps each selected JPEG to its final WebP.
 
 The unselected originals have not been deleted or moved. Keep the original

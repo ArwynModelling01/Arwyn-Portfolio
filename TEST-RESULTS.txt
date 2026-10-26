@@ -1,0 +1,18 @@
+1440px: all 12 collections / 54 photos and 9 portfolio images decode; lightbox navigation, nested Escape, scroll lock, reveal, keyboard activation, restored focus and overflow pass
+390px: all 12 collections / 54 photos and 9 portfolio images decode; lightbox navigation, nested Escape, scroll lock, reveal, keyboard activation, restored focus and overflow pass, mobile menu passes
+320px: all 12 collections / 54 photos and 9 portfolio images decode; lightbox navigation, nested Escape, scroll lock, reveal, keyboard activation, restored focus and overflow pass, mobile menu passes
+Extracted-folder preview via file://: collection and lightbox image load passed.
+No browser errors or failed HTTP requests.
+
+Static asset check: all 60 unique website image references resolve. All 62 included images verify and contain genuine WebP data. All 164 source filenames have a unique audit row: 36 selected, 123 reserve, 5 exact duplicates. New WebPs retain oriented source pixel dimensions; minimum local RGB SSIM 0.985087 and minimum PSNR 40.036 dB. Representative source/WebP crops and final desktop/mobile layouts were visually checked. JavaScript syntax check passed. Browser: Microsoft Edge, automated headless checks. No live deployment was performed. The existing Email placeholder remains as supplied.
+
+LATEST FULL-PHOTO HERO CHECKS
+1900px: hero decodes; wide staircase photo fills desktop hero at center 30%; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass.
+1440px: hero decodes; wide staircase photo fills desktop hero at center 30%; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass.
+1024px: hero decodes; wide staircase photo fills desktop hero at center 30%; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass.
+801px: hero decodes; wide staircase photo fills desktop hero at center 30%; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass.
+800px: hero decodes; seated phone portrait stays top-aligned; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass; phone menu passes.
+390px: hero decodes; seated phone portrait stays top-aligned; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass; phone menu passes.
+320px: hero decodes; seated phone portrait stays top-aligned; height reads 5 feet 1 inch; social image uses wide staircase photo; no horizontal overflow; portfolio button and lightbox pass; phone menu passes.
+
+Latest static check: all 60 website image references resolve; all 63 included WebPs verify. Audit: 36 collection selections, 1 desktop hero, 122 reserve photographs, 5 duplicate sources. Desktop and breakpoint screenshots visually inspected.

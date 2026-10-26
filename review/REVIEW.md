@@ -1,6 +1,6 @@
 # Arwyn portfolio review
 
-The edit selects **36 of 159 unique new photos**, retains all **18 existing collection photos**, and reduces the new material from 13 provisional groups to **seven coherent new collections**. The site now has **12 collections / 54 collection photos** and a **nine-image Selected Work grid** with five new images and four existing images.
+The edit selects **36 collection photos plus one desktop hero from 159 unique new photos**, retains all **18 existing collection photos**, and reduces the new material from 13 provisional groups to **seven coherent new collections**. The site now has **12 collections / 54 collection photos** and a **nine-image Selected Work grid** with five new images and four existing images.
 
 This is an editorial judgement based on expression, pose, composition, background control, variety and usefulness in a solo model portfolio. It is not a score of the model's appearance. All 159 unique new photos and the existing portfolio were visually reviewed in contact sheets; the final selection and representative compression comparisons were checked separately.
 
@@ -40,7 +40,7 @@ None of the new groups should be appended to the five existing shoots merely bec
 
 ## Material held in reserve
 
-123 unique new photographs are left out of the deployable site. Most are alternative poses, crops or expressions already represented by a stronger selected frame. Colour and monochrome alternatives are retained only where they add a different purpose.
+122 unique new photographs are left out of the deployable site. Most are alternative poses, crops or expressions already represented by a stronger selected frame. Colour and monochrome alternatives are retained only where they add a different purpose.
 
 The balcony set is held back as a whole: railings repeatedly cut across the figure, and garden furniture competes with the subject. The selected gown and studio frames offer cleaner presentation. Group truck portraits are held back because the solo portraits make Arwyn more prominent. Obscured mirror views and repeated bedroom reclining poses are also held back. This is a portfolio edit, not a finding that those photographs have no other use.
 
@@ -54,14 +54,18 @@ Each selected new WebP was encoded directly from its source JPEG, not recompress
 
 Quality is chosen per image using the first candidate meeting local-window RGB SSIM of at least 0.985 and PSNR of at least 40 dB against the oriented source. These measurements support the visual comparison, but do not guarantee every observer will perceive images identically. Existing compressed source files limit available detail; conversion cannot restore it.
 
-The selected source JPEGs total 2.75 MB; selected WebP files total 3.97 MB. High-quality WebP is not smaller than the already compressed JPEGs in this selection; quality was prioritised over a lower byte count. The large reduction from the all-photo package comes from editorial selection.
+The 36 collection-source JPEGs total 2.75 MB; selected WebP files total 3.97 MB. High-quality WebP is not smaller than the already compressed JPEGs in this selection; quality was prioritised over a lower byte count. The large reduction from the all-photo package comes from editorial selection.
 
 Minimum measured SSIM: 0.9851; minimum PSNR: 40.04 dB.
 
 ## Website and deployment
 
-The approved seated black-gown staircase photo is now the hero, using a top-aligned crop to keep the face visible on desktop and phones. Social-sharing metadata points to the same photo. The original woodland hero file remains available in the package.
+The desktop hero now uses the wide staircase frame (source Snapchat-458507834.jpg). This landscape composition shows both stair rails and the pose across the full screen, giving the opening more energy without the extreme crop of a portrait-format source. The seated black-gown portrait remains the phone hero. Social-sharing metadata uses the wide frame. The title stays below the face, with light shading behind the lettering. The original woodland hero file remains available in the package. Model Info height is corrected to 5'1".
 
 The existing colours, typography, mobile breakpoints, hover effects, collection viewer and lightbox remain. New and existing cards reveal individually so a long mobile grid does not remain hidden below the old observer threshold. The six-to-nine change expands Selected Work within its existing desktop three-column and mobile one-column layout.
 
 See `TEST-RESULTS.txt` for the completed checks and `DEPLOYMENT.txt` for upload steps. The original Email link still has no address and needs the owner's real email before it can send mail. Nothing has been published or sent to GitHub.
+
+## Additional desktop hero selection
+
+One former reserve image, staircase frame 14, is now selected specifically for its landscape hero composition. It is stored as `images/hero/arwyn-black-gown-staircase-wide.webp`, encoded directly from the original 1079 × 720 JPEG at quality 90. PSNR is 42.940 dB and local RGB SSIM is 0.985026. This is separate from the 36 collection selections, so the gallery counts and nine-image front grid are unchanged. Its source and optimisation measurements are recorded in the CSV audit files.
